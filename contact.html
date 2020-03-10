@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./asset/images/20181114_174437.jpg">
     <title>Murad A. </title>
 </head>
 <body>
@@ -15,42 +16,60 @@
             </td>
             <td> <h1>Murad Abdella</h1>
                 <h3>Student, Addis Ababa University</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam accusamus illum aliquam, error labore itaque accusantium quae, modi laudantium, in ut dolorum repellat ab vero neque corrupti velit aut odit.</p>
+                 
                 </td>
         </tr>
     </table>
         <!-- here we go again!   -->
     
     <!-- LISTS -->
+   
     <h3>contact me </h3>
+    
     <form action=" mailto:vjnjvn@bfbf.com" method= " POST" >
-        <label for="fName">First Name </label>
-         <input type="text" name ="fName" id="fName">
-       <br>
-        <label for="sName">Sure  Name</label>
-        <input type="text" name ="sName" id="sName">
-    <br>
-    <label for="email">Email</label>
-    <input type="email" name ="email" id="email">
-<br>
+            <table>
+                <tr>
+        <td><label for="fName">First Name </label></td>
+        <td><input type="text" name ="fName" id="fName" pattern="[A-Za-z]{2}"
+             title="please enter your first name"></td> 
+             <td></td>
+                </tr>
+       <tr>
+       <td> <label for="sName">Sure  Name</label></td>
+       <td> <input type="text" name ="sName" id="sName" 
+        title="please enter your sure  name"></td>
+    </tr>
+    <tr> 
+        <td>  <label for="email">Email</label></td> 
+    <td><input type="email" name ="email" id="email"  title="please enter your valid email tnxs!"></td>
+</tr>
+
+
+<tr><td>
      any comments ......
-     <br>
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-<br>
-Where are you from :
+    </td>
+    </tr>
+    <tr><td>
+    <textarea name="" id="" cols="30" rows="10"></textarea></td>
+</tr><tr><td>Where are you from :
 <select name="country" id="">
 <option value="1">Africa </option>
 <option value="2">Europe</option>
 <option value="3">Asia</option>
-</select>
-<br>
-    <button>submit</button>   
+</select></td>
+
+</tr><tr><td>
+    <button>submit</button></td></tr>   
 </form>
-
-
+<tr><div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=saris%20addis%20sefer&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net/blog/divi-discount/">divi blog template</a></div><style>.mapouter{position:relative;text-align:right;height:300px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:400px;}</style></div>
+</tr>
+</table>
 
     <a href=" ">Face book</a>
     <a href="">telegram </a>
+    <hr>
+    <p align = "center"> Developed by Murad A. &copy;2020</p>
+
     
 </body>
 </html>
