@@ -28,22 +28,27 @@
     <h3>contact me </h3>
     
     <form action=" mailto:vjnjvn@bfbf.com" method= " POST" >
+           
             <table>
                 <tr>
         <td><label for="fName">First Name </label></td>
-        <td><input type="text" name ="fName" id="fName" pattern="[A-Za-z]{4,8}"
+        <td><input type="text" name ="fName" id="fName" required pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$"
              title="please enter your first name"></td> 
              <td></td>
                 </tr>
        <tr>
        <td> <label for="sName">Sure  Name</label></td>
-       <td> <input type="text" name ="sName" id="sName" required pattern="[A-Za-z]{4,8}"
+       <td> <input type="text" name ="sName" id="sName" required pattern="^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$"
         title="please enter your sure  name"></td>
     </tr>
     <tr> 
         <td>  <label for="email">Email</label></td> 
     <td><input type="email" name ="email" id="email"  title="please enter your valid email tnxs!"></td>
 </tr>
+<tr>
+        <td><label for="">Password</label></td>
+        <td><input type="password" name="" id="" pattern="^[a-zA-Z]\w{3,14}$" required  ></td>
+    </tr>
 
 
 <tr><td>
