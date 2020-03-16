@@ -1,0 +1,221 @@
+.container
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+
+
+.base {
+    display: flex;
+    margin:  15px;
+    width: 90px;
+    height: 60px;
+    border-radius: 2px;
+    background: white;
+    
+}
+
+
+
+/* France */
+
+.c1 .main, .c7 .main ,.c8 .main {
+    background: white;
+    width: 30px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.c1 .main::before, .c7 .main:before,.c8 .main:before {
+    background: green;
+    width:30px;
+    height: 60px;
+    margin-left: -30px;
+}
+
+.c1 .main::after, .c7 .main:after ,.c8 .main:after  {
+    background: #ef0404;
+    width: 30px;
+    height: 60px;
+    margin-left: 30px;
+}
+
+/* India */
+
+.c2 .main, .c6 .main, .c9 .main,.c10 .main {
+    width: 90px;
+    height: 20px;
+    background: green;
+}
+
+.c2 .main:before, .c6 .main:before,.c9 .main:before, .c10 .main:before {
+    width: 90px;
+    height: 20px;
+    margin-top: 20px;
+    background: yellow;
+}
+
+.c2 .main:after, .c6 .main:after,.c9 .main:after ,  .c10 .main:after {
+    width: 90px;
+    height: 20px;
+    margin-top: 40px;
+    background: red;
+}
+
+
+/* United Kingdom */
+
+.c3 .main,.c4 .main,.c5 .main,.c9 .main{
+    width: 90px;
+    height: 60px;
+    background: green;
+    overflow: hidden;
+}
+.c3 .main:after {
+    width : 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: red;
+    margin: 15px 30px;
+}
+
+
+/* Japan */
+
+.c4 .main {
+    background: white;
+}
+
+.c4 .main:after {
+    width : 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: red;
+    margin: 15px 30px;
+}
+
+/* Switzerland */
+
+.c5 .main {
+    background: #ef0404;
+}
+
+.c5 .main:before {
+    width: 12px;
+    height: 36px;
+    margin: 12px 39px;
+    background: white; 
+}
+
+.c5 .main:after {
+    width: 36px;
+    height: 12px;
+    margin: 24px 27px;
+    background: white; 
+}
+
+/* Germany */
+
+.c6 .main {
+    background: black;
+}
+
+.c6 .main::before {
+    background: #ef0404;
+}
+
+.c6 .main::after {
+    background: yellow;
+}
+
+/* Italy */
+
+.c7 .main:before {
+    background: blue;
+}
+
+/* nigeria */
+.c8 .main:before {
+    background: green;
+    
+}
+.c8 .main:after {
+    background: green;
+}
+/* hungary */
+.c9 .main {
+    background: red;
+}
+
+.c9 .main:before {
+    background: white;
+}
+
+.c9 .main:after {
+    background: green;
+}
+
+/* Russia */
+
+.c10 .main {
+    background: white;
+}
+
+.c10 .main:before {
+    background: blue;
+}
+
+.c10 .main:after {
+    background: #ef0404;
+}
+.c11 .main, .c12 .main {
+    width: 90px;
+    height: 30px;
+    background: white;
+}
+
+.c11 .main:before, .c12 .main:before{
+    width: 90px;
+    height: 30px;
+    background: red;
+}
+ .c12 .main {
+   
+    background: white;
+}
+
+ .c12 .main:before{
+     margin-top: 30px;
+     background-color: red;
+   
+}
+
+
+/* body */
+
+html body {
+    margin-left: 20%;
+    padding: 0px;
+    background: pink;
+    font-family:  sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+    
+}
+
+div, div:after, div:before {
+    position: absolute;
+    content: '';
+}
+p{
+    font-size: 15px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
