@@ -1,24 +1,24 @@
 *
 {
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
 }
 body {
-
+    margin-top: 40px;
     background-color: rgb(170, 235, 231);
-    margin: 10px auto;
-    
 
-    
 }
 
 
 header {
-
+    text-align: center;
     background-color: grey;
     position: fixed;
     top:0px;
     width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    
 
 }
 
@@ -30,17 +30,24 @@ section
     margin: 12px;
     margin-top: 50px;
     
+    
 }
+section:first-of-type
+{
+    margin-top: 45px;
+}
+
+
 article
 {
     line-height: 25px;
     text-align: justify;
-    font-size: 13px;
+    font-size: 16px;
     
 }
 .title 
 {
-        font-size: 23px;
+        font-size: 30px;
         font-weight: bold;
 }
 .date 
@@ -48,6 +55,10 @@ article
     font-style: italic;
     font-size: 15px;
     text-align: right;
+}
+.article-head{
+    margin-left: 15px;
+    font-style: italic;
 }
 nav > ul > li{
     display: inline-block;
@@ -58,6 +69,7 @@ nav > ul > li{
 nav > ul > li > a
 {
     text-decoration: none;
+
 }
 nav > ul > li:hover
 {

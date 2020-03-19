@@ -19,7 +19,7 @@
 
 
 
-/* France */
+
 
 .c1 .main, .c7 .main ,.c8 .main {
     background: white;
@@ -42,7 +42,7 @@
     margin-left: 30px;
 }
 
-/* India */
+
 
 .c2 .main, .c6 .main, .c9 .main,.c10 .main {
     width: 90px;
@@ -65,7 +65,7 @@
 }
 
 
-/* United Kingdom */
+
 
 .c3 .main,.c4 .main,.c5 .main,.c9 .main{
     width: 90px;
@@ -116,7 +116,7 @@
     background: white; 
 }
 
-/* Germany */
+
 
 .c6 .main {
     background: black;
@@ -130,13 +130,13 @@
     background: yellow;
 }
 
-/* Italy */
+
 
 .c7 .main:before {
     background: blue;
 }
 
-/* nigeria */
+
 .c8 .main:before {
     background: green;
     
@@ -144,7 +144,7 @@
 .c8 .main:after {
     background: green;
 }
-/* hungary */
+
 .c9 .main {
     background: red;
 }
@@ -157,7 +157,7 @@
     background: green;
 }
 
-/* Russia */
+
 
 .c10 .main {
     background: white;
@@ -193,7 +193,7 @@
 }
 
 
-/* body */
+
 
 html body {
     margin-left: 20%;
