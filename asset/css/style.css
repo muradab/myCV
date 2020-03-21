@@ -37,7 +37,10 @@ section:first-of-type
     margin-top: 45px;
 }
 
-
+.profile
+{
+    display: inline;
+}
 article
 {
     line-height: 25px;
@@ -82,4 +85,29 @@ nav > ul > li:hover
     border-radius: 100%;
     float:left;
     
+}
+ 
+input, select,textarea 
+{   
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    
+  
+    
+}
+.contain , .contain p
+{
+    border-radius: 5px;
+    clear: both;
+    padding: 20px;
+}
+label
+{
+    float: left;
+    clear: both;
 }
