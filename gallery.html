@@ -10,27 +10,43 @@
     <style>
         .column
         {
-            flex: 33.33%;
-            padding: 10px;
+            flex: 30%;
+            padding: 1.666%;
+            
             
 
         }
         .row
         {
             display: flex;
+            margin-left: 1.666% ;
+            margin-right: 1.666% ;
             
         }
-        @media screen and (max-width: 500px){
+        img
+        {
+            width: 100%;
+        }
+        
+        @media  screen and (max-width: 600px){
+            
+            
             .column
             {
-                width: 100%;
-                display: flexbox;
+                display: block;
+            }
+            .row
+            {
+                display: block;
+            }
+            header{
+                display: none;
             }
         }
     </style>
 </head>
 <body>
-        <header>
+        <header class="header">
                 <!-- Navigation bar -->
             <nav>
                <ul>
@@ -59,18 +75,20 @@
             <div class="column"><img src="https://images.unsplash.com/photo-1583818253917-00853f2201bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="unsplash 1*1 image"  ></div >
             <div class="column"><img src="https://images.unsplash.com/photo-1583803163350-96c369a6e288?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="unsplash 2*1 image"></div >
             <div class="column"><img src="https://images.unsplash.com/photo-1583781454532-7f3d2d14176b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="unsplash 1*3 image"></div >
-            
+    </div>
+    <div class="row">
                 <div class="column"><img src="https://images.unsplash.com/photo-1558981001-1995369a39cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="unsplash 1*1 image"></div >
                 <div class="column"><img src="https://images.unsplash.com/photo-1583818253917-00853f2201bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="unsplash 1*1 image"  ></div >
                 <div class="column"><img src="https://images.unsplash.com/photo-1558981001-1995369a39cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="unsplash 1*1 image"></div >
-                
+                </div>    
+                <div class="row">  
         <div class="column"><img src="https://images.unsplash.com/photo-1558981001-1995369a39cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="unsplash 1*1 image"></div >
             <div class="column"><img src="https://images.unsplash.com/photo-1583830379760-cb684a1d49cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="unsplash 2*1 image"></div >
             <div class="column"><img src="https://images.unsplash.com/photo-1583781454532-7f3d2d14176b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="unsplash 1*3 image"></div >
             </div>
          
         
-    <hr>
+    <br>
      <p align = "center"> Developed by Murad A. &copy;2020</p>
    </body>
 </html>

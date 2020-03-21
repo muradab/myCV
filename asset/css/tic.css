@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #eee;
+    
   }
   
   h1 {
@@ -34,4 +34,20 @@
     border: 1.2px solid rgb(71, 67, 67);
     
   }
-  
+  body
+  {background: #eee;}
+
+  p{
+    margin-left: 20px;
+    font-family: cursive;
+    font-size: large;
+    
+
+  }
+  a{
+    text-decoration: none;
+    color: red;
+  }
+  p :hover{
+    color: blue;
+  }
