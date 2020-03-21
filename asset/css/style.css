@@ -5,9 +5,20 @@
 }
 body {
     margin-top: 40px;
-    background-color: rgb(170, 235, 231);
-
+    background-color: #ddd;
+    color:black;
+    margin-left: 20px;
 }
+h1{
+    text-align: center;
+    color:green;
+    
+}
+p{
+    text-align: center;
+    color:#33120c;  
+}
+
 
 
 header {
@@ -76,7 +87,7 @@ nav > ul > li > a
 }
 nav > ul > li:hover
 {
-    background-color: whitesmoke;
+    background-color: blue;
 }
 .img
 {   
